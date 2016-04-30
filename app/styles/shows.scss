@@ -1,12 +1,12 @@
 $lightY: #f2ec9b;
 $darkY: #f0e54e;
+$extraDarkY:#c2b60f;
 
 
 html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
+  font-family: proxima-nova, 'Roboto', 'Helvetica', sans-serif;
   margin: 0 auto;
   padding: 0;
-
   background-color: #FFFDF0;
 }
 
@@ -46,21 +46,21 @@ span{
 }
 
 a {
-  font-size: 20px;
-  font-family: bebas neue;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: proxima-nova;
   text-decoration: none;
   color: #4e4f4e;
   padding: 10px
 }
 
 a:hover{
-  color: purple;
+  color: #f5ec7c;
 }
 
 nav {
   text-align: center;
-  margin: 15px 10px
-
+  margin: 15px 10px;
 }
 
 .showsHead{
