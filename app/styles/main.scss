@@ -1,0 +1,193 @@
+$lightY: #f2ec9b;
+$darkY: #f0e54e;
+
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #FFFDF0;
+}
+
+.wrapper{
+  width: 800px;
+  margin: 0 auto;
+}
+p, h1{
+  margin: 0 auto;
+}
+
+.logo{
+  text-align: center;
+  font-family: bebas neue;
+  font-size: 40px;
+  color: white;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+
+.logoBorder{
+  border: 6px white solid;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:rgba(0, 0, 0, 0.43);
+
+}
+.header {
+  width: 100%;
+  height: 200px;
+  background-image: url(/images/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a {
+  font-size: 20px;
+  font-family: bebas neue;
+  text-decoration: none;
+  color: #4e4f4e;
+  padding: 10px
+}
+
+a:hover{
+  color: #f5ec7c;
+}
+
+.cls-1{
+  fill: $lightY;
+}
+
+nav {
+  text-align: center;
+  margin: 15px 10px;
+}
+
+.welcomeMessage{
+  text-align: center;
+  margin-top: 50px;
+  font-family: marydale;
+  font-size: 30px;
+  position: relative;
+}
+
+.about{
+  text-align: center;
+  height: 280px;
+}
+
+
+.readMore{
+  float: right;
+  background-color: $lightY;
+  border-radius: 10px;
+  padding: 8px;
+  margin-right: 125px;
+  margin-top: 10px;
+}
+
+h2{
+  font-family: marydale;
+}
+
+
+
+.aboutText{
+  line-height: 25px;
+  text-align: justify;
+  width: 550px
+}
+
+.forSale{
+  text-align: center;
+}
+
+.iconwrapper{
+  width: 100%;
+  height: 200px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+
+.imgtext{
+  font-family: marydale, sans-serif;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.contact {
+  text-align: center;
+  clear: both;
+}
+
+form { max-width:420px; margin:50px auto; text-align: center;}
+
+.feedback-input {
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid $lightY;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid $darkY; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+
+}
+
+[type="submit"] {
+  font-family: bebas neue, Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:$lightY;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color: white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background: $darkY; }
+
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: $lightY;
+}
+
+@media (max-width:800px) {
+
+  .wrapper{
+    width: 400px
+  }
+
+  .aboutText{
+    width: 270px;
+  }
+
+  .iconwrapper{
+    padding-left: 25px;
+    height: 482px;
+
+  }
+
+}
