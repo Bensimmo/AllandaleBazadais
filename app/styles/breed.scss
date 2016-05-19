@@ -132,11 +132,27 @@ h2{
   }
 }
 
+.cowphotos{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cow1{
+   display: inline-block;
+   padding-right: 40px;
+
+}
+
+.cow2{
+ display: inline-block;
+ }
+
 footer{
   width: 100%;
   height: 100px;
   background-color: $lightY;
 }
+
 @media (max-width:800px) {
 
   .wrapper{
